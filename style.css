@@ -27,12 +27,12 @@ body {
   font-family: "Outfit", sans-serif;
   padding: 1rem;
 }
-.content h2 {
+h1 {
   font-size: 30px;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
-.content p {
+p {
   font-weight: 400;
   color: hsl(220, 15%, 55%);
   padding: 0 1rem;
@@ -45,11 +45,11 @@ body {
     padding: 1rem;
     border-radius: 1.5rem;
   }
-  .content h2 {
+  h1 {
     font-size: 22px;
     color: #303f5c;
   }
-  .content p {
+  p {
     font-size: 14px;
     color: #999ea6;
   }
