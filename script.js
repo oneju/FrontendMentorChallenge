@@ -5,9 +5,11 @@ const image = document.createElement("img");
 if (width > 500) {
   image.setAttribute("src", "./assets/images/illustration-sign-up-desktop.svg");
   image.setAttribute("class", "desktop-img");
+  image.setAttribute("alt", "signup-img");
 } else {
   image.setAttribute("src", "./assets/images/illustration-sign-up-mobile.svg");
   image.setAttribute("class", "mobile-img");
+  image.setAttribute("alt", "signup-img");
 }
 signupImage.appendChild(image);
 
