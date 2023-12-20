@@ -13,7 +13,9 @@
   font-weight: 400;
   src: url("assets/fonts/Poppins-Italic.ttf");
 }
-
+.hidden {
+  display: none;
+}
 .card {
   background-color: hwb(0 100% 0%);
   padding: 3rem 1.5rem;
@@ -43,8 +45,6 @@ main {
   color: hsl(0, 1%, 44%);
   letter-spacing: 0.1rem;
   font-size: 0.7rem;
-
-  /* margin: 0 1rem 0 0; */
 }
 .inputSection {
   display: flex;
@@ -72,7 +72,6 @@ main {
 }
 .errormsg {
   color: hsl(0, 100%, 67%);
-  /* height: 2rem; */
   font-size: 0.7rem;
   letter-spacing: 0;
   width: 6rem;
@@ -128,9 +127,10 @@ button img {
   }
 
   .inputSection input {
-    width: 5rem;
-    font-size: 1.3rem;
+    width: 7rem;
+    font-size: 2rem;
     padding: 0.5rem 1rem;
+    margin: 0.5rem 1.5rem 0 0;
   }
   .errormsg {
     width: 8rem;
@@ -140,8 +140,11 @@ button img {
     display: flex;
     justify-content: right;
   }
+  button img {
+    height: 2.5rem;
+  }
   .result h2 {
-    font-size: 4rem;
-    line-height: 3.3rem;
+    font-size: 5rem;
+    line-height: 5rem;
   }
 }
