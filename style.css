@@ -40,20 +40,22 @@ main {
   align-items: center;
 }
 .inputSection label {
-  display: flex;
-  flex-direction: column;
   color: hsl(0, 1%, 44%);
   letter-spacing: 0.1rem;
   font-size: 0.7rem;
 }
+.input {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 .inputSection {
   display: flex;
   justify-content: space-between;
-  color: black;
-  width: 100%;
   height: 50%;
 }
-.inputSection input {
+.input input {
   outline: none;
   border-radius: 0.5rem;
   border: 1px solid hsl(0, 0%, 86%);
@@ -122,11 +124,11 @@ button img {
     padding: 3rem;
   }
   .inputSection {
-    width: fit-content;
+    width: 70%;
     height: fit-content;
   }
 
-  .inputSection input {
+  .input input {
     width: 7rem;
     font-size: 2rem;
     padding: 0.5rem 1rem;

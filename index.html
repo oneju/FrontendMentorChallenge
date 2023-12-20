@@ -19,23 +19,29 @@
   </head>
   <body>
     <main>
+      <h1 class="hidden">age calculator</h1>
       <div class="card">
-        <h1 class="hidden">age calculator</h1>
         <div class="inputSection">
-          <label for="day" id="day-section"
-            >DAY <input type="number" name="day" id="day" placeholder="DD" />
-            <p class="errormsg" id="day-errormsg"></p
-          ></label>
-          <label for="month" id="month-section"
-            >MONTH
-            <input type="number" name="month" id="month" placeholder="MM" />
-            <p class="errormsg" id="month-errormsg"></p
-          ></label>
-          <label for="year" id="year-section"
-            >YEAR
-            <input type="number" name="year" id="year" placeholder="YYYY" />
-            <p class="errormsg" id="year-errormsg"></p
-          ></label>
+          <div class="input">
+            <label for="day" id="day-section"
+              >DAY <input type="number" name="day" id="day" placeholder="DD"
+            /></label>
+            <p class="errormsg" id="day-errormsg"></p>
+          </div>
+          <div class="input">
+            <label for="month" id="month-section"
+              >MONTH
+              <input type="number" name="month" id="month" placeholder="MM"
+            /></label>
+            <p class="errormsg" id="month-errormsg"></p>
+          </div>
+          <div class="input">
+            <label for="year" id="year-section"
+              >YEAR
+              <input type="number" name="year" id="year" placeholder="YYYY"
+            /></label>
+            <p class="errormsg" id="year-errormsg"></p>
+          </div>
         </div>
         <div class="center-button">
           <button type="button" onclick="calc()">
